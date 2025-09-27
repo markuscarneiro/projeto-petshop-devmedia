@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<!-- 
+========================================
+PET BOUTIQUE - Website Institucional
+========================================
+Desenvolvido por: Markus Carneiro
+Tecnologias: HTML5, CSS3
+Descrição: Site institucional para pet shop boutique
+========================================
+-->
+<html lang="pt-br">
+<head>
+    <!-- ============ META TAGS E CONFIGURAÇÕES ============ -->
+    
+    <!-- Codificação de caracteres UTF-8 para suporte a acentos -->
+    <meta charset="UTF-8">
+    
+    <!-- Configuração para responsividade em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta description para SEO - aparece nos resultados de busca -->
+    <meta name="description" content="Descubra na Pet Boutique o melhor para seu pet! Produtos e serviços de alta qualidade para garantir o bem-estar do seu amigo de quatro patas. Conheça agora! #PetShop #BemEstarAnimal">
+    
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Título da página que aparece na aba do navegador -->
+    <title>PetShop Boutique</title>
+</head>
+<body>
+
+    <!-- 
+    ========================================
+    SEÇÃO BANNER PRINCIPAL (HERO)
+    ========================================
+    Esta é a primeira seção que o usuário vê
+    - Imagem de fundo em tela cheia (cachorro)
+    - Logo da empresa no canto superior esquerdo  
+    - Call-to-action centralizado com botão WhatsApp
+    - Classes: .geral (padding padrão) + .secao_banner (background)
+    ========================================
+    -->
+    <div class="geral secao_banner">
+        
+        <!-- Cabeçalho da empresa (canto superior esquerdo) -->
+        <div class="secao_topo">
+            <!-- Nome da empresa com ícone das patas -->
+            <p class="nome_topo">
+                <img class="imagem_topo" src="../img/patas.png" alt="Ícone de patas de cachorro">
+                Pet Boutique
+            </p>
+            <!-- Slogan da empresa -->
+            <p class="slogan_topo">Estilo e Elegância para Cães e Gatos</p>
+        </div>
+        
+        <!-- Container principal centralizado com call-to-action -->
+        <div class="secao_titulo">
+            <!-- Título principal do banner -->
+            <h1>Tenha o melhor tratamento para o seu parceiro</h1>
+            
+            <!-- Botão de contato direto via WhatsApp -->
+            <div class="link_topo">
+                <!-- Link que abre WhatsApp diretamente com número específico -->
+                <a href="https://wa.me/5598988888888" target="_blank">Fale Conosco</a>
+                <!-- Ícone do WhatsApp ao lado do texto -->
+                <img src="../img/redes-sociais/whatsapp-svgrepo-com.png" alt="Ícone do WhatsApp">
+            </div> 
+        </div>
+    </div>
+
+    <!-- 
+    ========================================
+    SEÇÃO DE SERVIÇOS
+    ========================================
+    Apresenta os principais serviços oferecidos pela Pet Boutique
+    - Lista detalhada com descrições dos serviços
+    - Galeria de imagens ilustrativas
+    - Classe .geral para padding padrão
+    ========================================
+    -->
+    <div class="geral secao_servicos">
+        <!-- Título da seção -->
+        <h3>Alguns dos nossos serviços</h3>
+        
+        <!-- Container da lista de serviços -->
+        <div class="secao_listas">
+            <!-- Lista não ordenada com os serviços -->
+            <ul>
+                <!-- Serviço 1: Banho & Tosa -->
+                <li>
+                    <span class="texto_destaque">Banho & Tosa:</span> 
+                    Banho, hidratação, tosa higiênica, tosa de cachorros de diversas raças e outros serviços feitos por profissionais parceiros especialistas no assunto.
+                </li>
+                
+                <!-- Serviço 2: Veterinário 24h -->
+                <li>
+                    <span class="texto_destaque">Veterinário 24h:</span> 
+                    A saúde do seu melhor amigo em boas mãos, consultas, exames e vacinas com médicos-veterinários parceiros.
+                </li>
+                
+                <!-- Serviço 3: Dog Walker -->
+                <li>
+                    <span class="texto_destaque">Dog Walker:</span> 
+                    Sem tempo para sair com seu cachorro? Além de caminhadas, os passeadores parceiros Pet Anjo ainda corrigem comportamentos e ensinam comandos básicos.
+                </li>
+                
+                <!-- Serviço 4: Creche Pet -->
+                <li>
+                    <span class="texto_destaque">Creche Pet:</span> 
+                    A creche para cachorro é uma solução personalizada para quem não quer deixar pet sozinho em casa durante o dia. Brincadeiras, cuidados e muito carinho!
+                </li>
+                
+                <!-- Serviço 5: Loja de Produtos -->
+                <li>
+                    <span class="texto_destaque">Produtos para seu pet:</span> 
+                    Explore nossa loja repleta de produtos premium para animais de estimação. De alimentos saudáveis a brinquedos divertidos e acessórios elegantes.
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Galeria de imagens dos serviços -->
+        <div class="secao_imagem_servicos">
+            <!-- Imagem ilustrativa do serviço de banho e tosa -->
+            <img src="../img/banho.png" alt="Serviço de banho e tosa para pets">
+            
+            <!-- Imagem da creche para pets -->
+            <img src="../img/creche.png" alt="Creche especializada para cães e gatos">
+            
+            <!-- Imagem do serviço de dog walker -->
+            <img src="../img/dog-walker.png" alt="Serviço de passeio com cães - Dog Walker">
+            
+            <!-- Imagem da loja de produtos pet -->
+            <img src="../img/loja.png" alt="Loja de produtos premium para pets">
+            
+            <!-- Imagem dos serviços veterinários -->
+            <img src="../img/veterinario.png" alt="Serviços veterinários 24 horas">
+        </div>
+    </div>
+
+    <!-- 
+    ========================================
+    PRIMEIRA SEÇÃO PROMOCIONAL (FAIXA ROXA)
+    ========================================
+    Seção com fundo roxo para engajamento e redes sociais
+    - Frase promocional destacando a paixão da empresa
+    - Links para redes sociais (Facebook, Instagram, WhatsApp)
+    - Fundo roxo (#3c184e) com texto branco para contraste
+    ========================================
+    -->
+    <div class="geral secao_faixas">
+        <!-- Frase promocional com destaque na marca -->
+        <p class="texto_faixa">
+            Aqui na <span class="texto_destaque">Pet Boutique</span> somos apaixonados pelo que fazemos.
+        </p>
+        
+        <!-- Container dos links das redes sociais -->
+        <div class="links_faixas">
+            <!-- Link para página do Facebook -->
+            <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+                <img src="../img/redes-sociais/facebook-svgrepo-com.png" alt="Siga-nos no Facebook">
+            </a>
+            
+            <!-- Link para página do Instagram -->
+            <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                <img src="../img/redes-sociais/instagram-svgrepo-com.png" alt="Siga-nos no Instagram">
+            </a>
+            
+            <!-- Link direto para WhatsApp -->
+            <a href="https://wa.me/5511948133124" target="_blank">
+                <img src="../img/redes-sociais/whatsapp-svgrepo-com.png" alt="Fale conosco pelo WhatsApp">
+            </a>
+        </div>
+    </div>
+
+    <!-- 
+    ========================================
+    SEÇÃO DE MARCAS PARCEIRAS
+    ========================================
+    Mostra as principais marcas com as quais a Pet Boutique trabalha
+    - Demonstra credibilidade e qualidade dos produtos
+    - Grid de logos organizados em 3 linhas
+    - Cada marca tem 148x148px para uniformidade visual
+    ========================================
+    -->
+    <div class="geral secao_marcas">
+        <!-- Título da seção -->
+        <h3>Nossas principais marcas</h3>
+        
+        <!-- Primeira linha de marcas -->
+        <div class="secao_imagem_marcas">
+            <!-- Marca 1: AlfaPet -->
+            <img src="../img/marcas/AlfaPet.png" alt="Marca AlfaPet - Produtos para pets">
+            
+            <!-- Marca 2: BichinhoChic -->
+            <img src="../img/marcas/BichinhoChic.png" alt="Marca BichinhoChic - Acessórios elegantes">
+            
+            <!-- Marca 3: Boehringer -->
+            <img src="../img/marcas/Boehringer.png" alt="Boehringer - Produtos veterinários">
+            
+            <!-- Marca 4: Inataa -->
+            <img src="../img/marcas/Inataa.png" alt="Marca Inataa - Produtos premium">
+        </div>
+        
+        <!-- Segunda linha de marcas -->
+        <div class="secao_imagem_marcas">
+            <!-- Marca 5: Biofresh -->
+            <img src="../img/marcas/LogoBiofresh.png" alt="Biofresh - Alimentos naturais para pets">
+            
+            <!-- Marca 6: Bravecto -->
+            <img src="../img/marcas/LogoBravecto.png" alt="Bravecto - Proteção contra pulgas e carrapatos">
+            
+            <!-- Marca 7: Nexgard Spectra -->
+            <img src="../img/marcas/NexgardSpectra.png" alt="Nexgard Spectra - Proteção completa">
+            
+            <!-- Marca 8: Pickorruchos -->
+            <img src="../img/marcas/Pickorruchos.png" alt="Pickorruchos - Brinquedos e acessórios">
+        </div>
+        
+        <!-- Terceira linha de marcas -->
+        <div class="secao_imagem_marcas">
+            <!-- Marca 9: PapaPets -->
+            <img src="../img/marcas/PapaPets.png" alt="PapaPets - Produtos especializados">
+            
+            <!-- Marca 10: Royal Canin -->
+            <img src="../img/marcas/royalcanini.png" alt="Royal Canin - Alimentação premium">
+            
+            <!-- Marca 11: SãoPet -->
+            <img src="../img/marcas/saopet.png" alt="SãoPet - Produtos nacionais de qualidade">
+            
+            <!-- Marca 12: ExoPets -->
+            <img src="../img/marcas/exopets.png" alt="ExoPets - Produtos especiais para pets">
+        </div>
+    </div>
+
+    <!-- 
+    ========================================
+    SEGUNDA SEÇÃO PROMOCIONAL (FAIXA ROXA)
+    ========================================
+    Segunda faixa promocional reforçando o posicionamento da marca
+    - Enfatiza o conceito "Estilo e Elegância"
+    - Mesmos links de redes sociais para reforçar contato
+    - Padrão visual idêntico à primeira faixa para consistência
+    ========================================
+    -->   
+    <div class="geral secao_faixas">
+        <!-- Frase promocional focando no posicionamento da marca -->
+        <p class="texto_faixa">
+            Na <span class="texto_destaque">Pet Boutique</span> você encontra Estilo e Elegância para Cães e Gatos.
+        </p>
+        <!-- Container dos links das redes sociais (repetição para reforço) -->
+        <div class="links_faixas">
+            <!-- Link para Facebook (duplicado para reforçar presença digital) -->
+            <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+                <img src="../img/redes-sociais/facebook-svgrepo-com.png" alt="Facebook Pet Boutique">
+            </a>
+            
+            <!-- Link para Instagram (duplicado para reforçar presença digital) -->
+            <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                <img src="../img/redes-sociais/instagram-svgrepo-com.png" alt="Instagram Pet Boutique">
+            </a>
+            
+            <!-- Link para WhatsApp (duplicado para facilitar contato) -->
+            <a href="https://wa.me/5511948133124" target="_blank">
+                <img src="../img/redes-sociais/whatsapp-svgrepo-com.png" alt="WhatsApp Pet Boutique">
+            </a>
+        </div>
+    </div>
+
+    <!-- 
+    ========================================
+    SEÇÃO DE LOCALIZAÇÃO (MAPA)
+    ========================================
+    Mostra a localização física da Pet Boutique
+    - Título chamativo "ONDE ESTAMOS"
+    - Texto explicativo convidativo
+    - Google Maps incorporado com localização real
+    - Iframe responsivo para diferentes dispositivos
+    ========================================
+    -->
+    <div class="geral secao_mapa">
+        <!-- Título da seção em maiúsculas para destaque -->
+        <h3>ONDE ESTAMOS</h3>
+        
+        <!-- Texto convidativo para visita presencial -->
+        <p class="texto_mapa">Se ficou interessado em nossos serviços, venha nos conhecer:</p>
+        
+        <!-- 
+        Google Maps incorporado - Configurações:
+        - width="600" height="450": Dimensões do mapa
+        - allowfullscreen: Permite visualização em tela cheia
+        - loading="lazy": Carregamento otimizado
+        - referrerpolicy: Política de privacidade
+        - Localização: Pet Shop São Lázaro (coordenadas específicas)
+        -->
+        <iframe 
+            class="mapa" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d457.37936970117084!2d-46.31665985977404!3d-23.495250326748636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce7ba2904e69df%3A0xcc4206b7c99cbc7b!2zUGV0IFNob3AgU8OjbyBMw6F6YXJv!5e0!3m2!1sen!2sbr!4v1737471728665!5m2!1sen!2sbr" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <!-- 
+    ========================================
+    RODAPÉ DO SITE
+    ========================================
+    Seção final com informações de créditos
+    - Fundo roxo consistente com a identidade visual
+    - Créditos do desenvolvedor
+    - Espaçamento mínimo para não ocupar muito espaço
+    ========================================
+    -->
+    <div class="geral secao_rodape">
+        <!-- Créditos do desenvolvedor -->
+        <p class="texto_rodape">Desenvolvido por Markus Carneiro</p>
+        
+        <!-- Logo do desenvolvedor (comentado - arquivo não existe atualmente) -->
+        <!-- <img src="../img/marcas/logo.png" alt="Logo do Desenvolvedor"> -->
+    </div>
+
+<!-- 
+========================================
+FIM DO DOCUMENTO HTML
+========================================
+Estrutura completa do site Pet Boutique:
+1. Banner Hero com imagem do cachorro
+2. Seção de serviços com lista e imagens
+3. Primeira faixa promocional com redes sociais
+4. Seção de marcas parceiras
+5. Segunda faixa promocional
+6. Seção de localização com mapa
+7. Rodapé com créditos
+
+Tecnologias utilizadas:
+- HTML5 semântico
+- CSS3 com Flexbox
+- Google Maps API
+- Integração WhatsApp
+- Design responsivo
+========================================
+-->
+</body>
+</html>

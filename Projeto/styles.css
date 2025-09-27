@@ -1,0 +1,247 @@
+/* ========================================
+   RESET E ESTILOS GLOBAIS
+   ======================================== */
+
+/* Reset CSS: Remove margens e paddings padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura/altura */
+    font-family: sans-serif; /* Fonte padrão para todo o site */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+/* Classe para destacar texto importante em negrito e itálico */
+.texto_destaque {
+    font-weight: 700; /* Negrito */
+    font-style: italic; /* Itálico */
+}
+
+/* Container padrão para todas as seções do site com espaçamento uniforme */
+.geral {
+    padding: 120px 80px; /* Espaçamento interno: 120px vertical, 80px horizontal */
+}
+
+/* Estilo padrão para títulos de seção */
+h3 {
+    font-size: 36px; /* Tamanho grande para títulos */
+    color: #3c184e; /* Cor roxa da marca Pet Boutique */
+    text-align: center; /* Centralizado */
+    margin: 0 0 45px; /* Margem inferior para separar do conteúdo */
+}
+
+/* ========================================
+   SEÇÃO BANNER PRINCIPAL (HERO)
+   ======================================== */
+
+/* Container principal do banner com imagem de fundo do cachorro */
+.secao_banner {
+    background-image: url("../img/banner-topo.jpg"); /* Imagem do cachorro */
+    background-position: center; /* Centraliza a imagem */
+    background-size: cover; /* Cobre toda a área sem distorção */
+    height: 100vh; /* Ocupa 100% da altura da tela do navegador */
+    padding: 80px; /* Espaçamento interno para os elementos */
+    box-sizing: border-box; /* Inclui padding no cálculo da altura */
+    position: relative; /* Permite posicionamento absoluto dos filhos */
+}
+
+/* Cabeçalho da empresa (canto superior esquerdo) */
+.secao_topo {
+    max-width: 250px; /* Largura máxima para não ocupar muito espaço */
+    color: #3c184e; /* Cor roxa da marca */
+}
+
+/* Ícone das patas ao lado do nome da empresa */
+.imagem_topo {
+    width: 35px; /* Tamanho do ícone */
+    margin-right: 5px; /* Espaçamento entre ícone e texto */
+}
+
+/* Nome da empresa "Pet Boutique" */
+.nome_topo {
+    font-size: 30px; /* Tamanho grande para destaque */
+    margin: 0 0 5px; /* Margem inferior pequena */
+}
+
+/* Slogan da empresa */
+.slogan_topo {
+    font-size: 14px; /* Texto menor para o slogan */
+    text-align: center; /* Centralizado */
+    margin: 0; /* Sem margem */
+}
+
+/* Container centralizado com fundo semi-transparente para o call-to-action */
+.secao_titulo {
+    max-width: 1024px; /* Largura máxima responsiva */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 40px; /* Espaçamento interno generoso */
+    margin: 70px auto 0 auto; /* Centralizado horizontalmente com margem superior */
+    background-color: #ffffffc4; /* Fundo branco semi-transparente (77% opacidade) */
+    box-shadow: 0 8px 32px #1f26875e; /* Sombra sutil para profundidade */
+}
+
+/* Título principal do banner */
+.secao_titulo h1 {
+    font-size: 60px; /* Tamanho grande para impacto visual */
+    color: #3c184e; /* Cor roxa da marca */
+    text-align: center; /* Centralizado */
+    font-weight: 800; /* Extra negrito para destaque */
+    margin: 0 auto 40px; /* Margem inferior para separar do botão */
+}
+
+/* Botão de call-to-action "Fale Conosco" */
+.link_topo {
+    width: 200px; /* Largura fixa do botão */
+    padding: 10px 25px; /* Espaçamento interno */
+    margin: 0 auto; /* Centralizado */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #3c184e; /* Fundo roxo da marca */
+    font-size: 20px; /* Texto legível */
+    text-align: center; /* Texto centralizado */
+}
+
+/* Link dentro do botão */
+.link_topo a {
+    color: #fff; /* Texto branco para contraste com o fundo roxo */
+}
+
+/* Ícone do WhatsApp no botão */
+.link_topo img {
+    width: 20px; /* Tamanho pequeno para o ícone */
+}
+
+/* ========================================
+   SEÇÃO DE SERVIÇOS
+   ======================================== */
+
+/* Container da lista de serviços oferecidos */
+.secao_listas {
+    max-width: 800px; /* Largura máxima para boa leitura */
+    margin: 0 auto 50px auto; /* Centralizado com margem inferior */
+    color: #3c184e; /* Cor roxa da marca */
+}
+
+/* Lista não ordenada dos serviços */
+.secao_listas ul {
+    list-style-type: square; /* Marcadores quadrados para os itens */
+}
+
+/* Itens individuais da lista de serviços */
+.secao_listas li {
+    font-size: 20px; /* Tamanho legível */
+    margin: 0 0 20px 0; /* Espaçamento entre itens */
+}
+
+/* Container das imagens dos serviços */
+.secao_imagem_servicos {
+    max-width: 800px; /* Largura máxima */
+    margin: 0 auto; /* Centralizado */
+    text-align: center; /* Alinha as imagens ao centro */
+}
+
+/* Imagens dos serviços (banho, creche, dog-walker, etc.) */
+.secao_imagem_servicos img {
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    box-shadow: 3px 6px 10px 6px #0000005c; /* Sombra para profundidade */
+}
+
+/* ========================================
+   SEÇÕES PROMOCIONAIS (FAIXAS)
+   ======================================== */
+
+/* Faixas promocionais com fundo roxo e redes sociais */
+.secao_faixas {
+    background-color: #3c184e; /* Fundo roxo da marca */
+    text-align: center; /* Conteúdo centralizado */
+}
+
+/* Texto promocional das faixas */
+.texto_faixa {
+    max-width: 800px; /* Largura máxima para boa leitura */
+    margin: 0 auto 50px auto; /* Centralizado com margem inferior */
+    font-size: 40px; /* Tamanho grande para impacto */
+    color: #fff; /* Texto branco para contraste com fundo roxo */
+    text-align: center; /* Centralizado */
+}
+
+/* Container dos links das redes sociais */
+.links_faixas {
+    text-align: center; /* Ícones centralizados */
+}
+
+/* Links individuais das redes sociais */
+.links_faixas a {
+    margin: 0 20px; /* Espaçamento entre os ícones */
+}
+
+/* Ícones das redes sociais (Facebook, Instagram, WhatsApp) */
+.links_faixas img {
+    width: 50px; /* Largura dos ícones */
+    height: 50px; /* Altura dos ícones (quadrados) */
+}
+
+/* ========================================
+   SEÇÃO DE MARCAS PARCEIRAS
+   ======================================== */
+
+/* Container das imagens das marcas */
+.secao_imagem_marcas {
+    max-width: 800px; /* Largura máxima */
+    margin: 0 auto; /* Centralizado */
+}
+
+/* Logos das marcas parceiras */
+.secao_imagem_marcas img {
+    width: 148px; /* Largura fixa para uniformidade */
+    height: 148px; /* Altura fixa (logos quadradas) */
+    margin: 0 15px; /* Espaçamento entre as marcas */
+}
+
+/* ========================================
+   SEÇÃO DE LOCALIZAÇÃO (MAPA)
+   ======================================== */
+
+/* Container da seção do mapa */
+.secao_mapa {
+    width: 100%; /* Largura total */
+    text-align: center; /* Conteúdo centralizado */
+}
+
+/* Texto explicativo acima do mapa */
+.texto_mapa {
+    font-size: 20px; /* Tamanho legível */
+    color: #3c184e; /* Cor roxa da marca */
+    text-align: center; /* Centralizado */
+    margin: 0 0 45px; /* Margem inferior para separar do mapa */
+}
+
+/* Iframe do Google Maps */
+.mapa {
+    width: 800px; /* Largura do mapa */
+    height: 450px; /* Altura do mapa */
+    margin: auto; /* Centralizado */
+}
+
+/* ========================================
+   RODAPÉ DO SITE
+   ======================================== */
+
+/* Container do rodapé */
+.secao_rodape {
+    width: 100%; /* Largura total */
+    padding: 10px 0; /* Padding vertical mínimo */
+    background-color: #3c184e; /* Fundo roxo da marca */
+}
+
+/* Texto dos créditos no rodapé */
+.texto_rodape {
+    color: #fff; /* Texto branco para contraste */
+    font-size: 12px; /* Texto pequeno para créditos */
+    text-align: center; /* Centralizado */
+}
+
+/* Logo/imagem no rodapé (se houver) */
+.secao_rodape img {
+    width: 50px; /* Largura pequena */
+    height: 50px; /* Altura pequena */
+}

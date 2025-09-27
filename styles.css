@@ -36,7 +36,7 @@ h3 {
 
 /* Container principal do banner com imagem de fundo do cachorro */
 .secao_banner {
-    background-image: url("../img/banner-topo.jpg"); /* Imagem do cachorro */
+    background-image: url("img/banner-topo.jpg"); /* Imagem do cachorro */
     background-position: center; /* Centraliza a imagem */
     background-size: cover; /* Cobre toda a área sem distorção */
     height: 100vh; /* Ocupa 100% da altura da tela do navegador */

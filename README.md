@@ -2,11 +2,16 @@
 
 Landing page responsiva desenvolvida com HTML5 e CSS3 puro para um petshop fictício, demonstrando fundamentos sólidos de desenvolvimento web front-end.
 
+🌐 **[Ver Demo Online](https://markuscarneiro.github.io/projeto-petshop-devmedia/)**
+
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![DevMedia](https://img.shields.io/badge/DevMedia-Project-orange)](https://www.devmedia.com.br/)
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://markuscarneiro.github.io/projeto-petshop-devmedia/)
 
 ## 🎯 Sobre o Projeto
+
+> **🚀 [Acesse a demonstração ao vivo](https://markuscarneiro.github.io/projeto-petshop-devmedia/)**
 
 Projeto prático desenvolvido como parte do curso da **DevMedia**, focado na construção de uma landing page moderna e responsiva sem uso de frameworks CSS. O objetivo é demonstrar domínio de HTML semântico e estilização avançada com CSS puro.
 
@@ -77,7 +82,11 @@ Acesse: `http://localhost:8000`
 
 ## 📸 Preview
 
-*[Screenshots serão adicionados em breve]*
+### 🌐 [Visualize o projeto online](https://markuscarneiro.github.io/projeto-petshop-devmedia/)
+
+![Petshop Landing Page](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
+
+*Screenshots e detalhes visuais podem ser vistos acessando a [demo ao vivo](https://markuscarneiro.github.io/projeto-petshop-devmedia/)*
 
 ### Seções da Landing Page:
 - ✅ Header com navegação
